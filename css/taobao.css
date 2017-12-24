@@ -1,0 +1,301 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    background: #eeeeee;
+}
+/*头部开始*/
+header div.tru{
+	height: 1rem;
+	width: 10rem;
+	background: #FE5500 url(../img/logo.png) no-repeat 0.12rem;
+	background-size: 0.72rem 0.546rem;
+	position: relative;
+}
+header div.tru a{
+	width: 8.813rem;
+	height: 0.666rem;
+	background: #B52700;
+	display: block;
+	position: absolute;
+	top:0.16rem;
+	right: 0.2rem;
+	border-radius: 0.12rem;
+	text-align: center;
+	line-height: 0.666rem;
+	color: #FCFCFC;
+	font-size: 13px;
+}
+[data-dpr="2"] header div.tru a {
+	font-size: 26px;
+}
+[data-dpr="3"] header div.tru a {
+	font-size: 39px;
+}
+header div.tru a .iconfont.icon-fangdajing{
+    font-size: 13px;
+}
+[data-dpr="2"] header div.tru a .iconfont.icon-fangdajing {
+    font-size: 26px;
+}
+[data-dpr="3"] header div.tru a .iconfont.icon-fangdajing {
+    font-size: 39px;
+}
+/*头部结束*/
+
+/*轮播图开始*/
+div.flash{
+	width: 10rem;
+	height: 3.12rem;
+	background: blue;
+}
+div.flash .swiper-container img{
+	width: 10rem;
+	height: 3.12rem;
+}
+/*轮播图结束*/
+/*目录开始*/
+div.mulu{
+    width: 10rem;
+    height: 6.146em;
+    background: #fff;
+}
+div.mulu .mulu-top{
+    height: 4.72rem;
+}
+div.mulu .mulu-top .top-bian{
+    height: 2.36rem;
+}
+div.mulu .mulu-top .top-bian .tianmao{
+    width: 1.625rem;
+    height: 2.125rem;
+    float: left;
+    margin-left: 0.21rem;
+}
+div.mulu .mulu-top .top-bian .tianmao .tianmaotupian{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/01.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .juhuasua{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/02.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .tianmaoguoji{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/03.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .waimai{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/04.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .tianmaochaoshi{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/05.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .chuongzhi{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/06.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .feizhu{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/07.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .lingjingbi{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/08.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .paimai{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/09.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .fenlei{
+    box-sizing: border-box;
+    line-height: 0;
+    margin-top: 0.313rem;
+    width: 1.625rem;
+    height: 1.141rem;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/10.png);
+}
+div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
+    box-sizing: border-box;
+    line-height: 0.688rem;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+    background-color: transparent;
+    width: 1.625rem;
+    height: 0.688rem;
+}
+[data-dpr="2"] div.mulu .mulu-top .top-bian .tianmao .tianmaozi {
+    font-size: 26px;
+}
+[data-dpr="3"] div.mulu .mulu-top .top-bian .tianmao .tianmaozi {
+    font-size: 39px;
+}
+/*目录结束*/
+.taobao-container{
+    width: 10rem;
+    height:1rem;
+    border-top: 2px solid #e8e8e8;
+    background: greenyellow;
+}
+.taobao-container .toutiao{
+    height: 0.8rem;
+    background: url(../img/taobaotoutiao.png) no-repeat 0.32rem 0.2rem;
+    background-size: 1.5rem 0.6rem;
+}
+.taobao-container .swiper-wrapper{
+    width: 6.84rem;
+    height: 0.6rem;
+    /*overflow: hidden;*/
+    float: right;
+    position: relative;
+}
+.taobao-container .swiper-wrapper .swiper-slide{
+    width:0.906rem;
+    height: 0.6rem;
+    border:2px solid #d81421;
+    border-radius: 0.12rem;
+    font-size: 13px;
+    text-align: center;
+    line-height: 0.533rem;
+    position: absolute;
+    top: 0.2rem;
+    left: -0.6rem;
+
+}
+[data-dpr="2"] .taobao-container .swiper-wrapper .swiper-slide{
+    font-size: 26px;
+}
+[data-dpr="3"] .taobao-container .swiper-wrapper .swiper-slide{
+    font-size: 39px;
+}
+.taobao-container .swiper-wrapper .swiper-slide span{
+    width: 6.2rem;
+    font-size: 13px;
+    position: absolute;
+    top: 0.25rem;
+    left: 1rem;
+}
+[data-dpr="2"] .taobao-container .swiper-wrapper .swiper-slide span{
+    font-size: 26px;
+}
+[data-dpr="3"] .taobao-container .swiper-wrapper .swiper-slide span{
+    font-size: 39px;
+}
+.box{
+    width: 10rem;
+    height: 0.16rem;
+    background: #eeeeee;
+    margin-top: 0.1rem;
+}
+.diyibufen{
+    width: 10rem;
+    height: 5.04rem;
+    float: left;
+    border-bottom:2px solid #d9d9d9;
+}
+.diyizhang{
+    width: 3.786rem;
+    height: 5.04rem;
+    float: left;
+    border-right:2px solid #d9d9d9;
+
+}
+.diyizhang .right{
+    height: 5.04rem;
+    background: url("../img/diyiz01.jpg");
+    background-size: 100% 100%;
+}
+.left{
+    width: 6.213rem;
+    height: 5.04rem;
+    float: right;
+}
+.top{
+    width: 6.213rem;
+    height: 2.32rem;
+    border-bottom: 2px solid #d9d9d9;
+}
+.bottom{
+    width: 6.213rem;
+    height: 2.72rem;
+
+}
+.bottom-left{
+    width: 3.04rem;
+    height: 2.72rem;
+    border-right:2px solid #d9d9d9;
+}
+.bottom-left .num{
+    height: 2.72rem;
+    background: url("../img/diyi02.jpg");
+    background-size: 100% 100%;
+}

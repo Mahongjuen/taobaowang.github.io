@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<!--引入flexible插件-->
+		<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+		<!--引入taobao.css-->
+		<link rel="stylesheet" type="text/css" href="css/taobao.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	</head>
+	<body>
+		<!--header部分开始-->
+		<header>
+			<div class="tru">
+				<a href="">
+					<i class="iconfont icon-fangdajing"></i>
+					寻找宝贝店铺
+				</a>
+			</div>
+		</header>
+		<!--header部分结束-->
+		<!--轮播图开始-->
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<div class="flash">
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="img/lbt01.jpg"/></div>
+			        <div class="swiper-slide"><img src="img/lbt02.jpg"/></div>
+			        <div class="swiper-slide"><img src="img/lbt03.jpg"/></div>
+			        <div class="swiper-slide"><img src="img/lbt04.jpg"/></div>
+			        <div class="swiper-slide"><img src="img/lbt05.jpg"/></div>
+			        <div class="swiper-slide"><img src="img/lbt06.jpg"/></div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			</div>
+		</div>
+		<script src="js/swiper.min.js"></script>
+		<script>        
+		    var mySwiper = new Swiper ('.swiper-container', {
+		    loop: true,
+		    autoplay:true,
+		    
+		    // 如果需要分页器
+		    pagination: {
+		      el: '.swiper-pagination'
+		    }
+		   
+		  })        
+		  </script>
+		<!--轮播图结束-->
+		<!--目录开始-->
+		<div class="mulu">
+		    <div class="mulu-top">
+		      <div class="top-bian">
+		         <div class="tianmao">
+		             <div class="tianmaotupian">
+		             </div>
+		             <div class="tianmaozi">天猫</div>
+		         </div>
+		         <div class="tianmao">
+		             <div class="juhuasua">
+		             </div>
+		             <div class="tianmaozi">聚划算</div>
+		         </div>
+		         <div class="tianmao">
+		             <div class="tianmaoguoji">
+		             </div>
+		             <div class="tianmaozi">天猫国际</div>
+		         </div>
+		         <div class="tianmao">
+		             <div class="waimai">
+		             </div>
+		             <div class="tianmaozi">外卖</div>
+		         </div>
+		         <div class="tianmao">
+		             <div class="tianmaochaoshi">
+		             </div>
+		             <div class="tianmaozi">天猫超市</div>
+		         </div>
+		      </div>  
+		            <div class="top-bian">
+		         <div class="tianmao">
+		             <div class="chuongzhi">
+		             </div>
+		             <div class="tianmaozi">充值中心</div>
+		         </div>
+		         <div class="tianmao">
+		             <div class="feizhu">
+		             </div>
+		             <div class="tianmaozi">飞猪旅行</div>
+		         </div>
+		         <div class="tianmao">
+		             <div class="lingjingbi">
+		             </div>
+		             <div class="tianmaozi">领金币</div>
+		         </div>
+		         <div class="tianmao">
+		             <div class="paimai">
+		             </div>
+		             <div class="tianmaozi">拍卖</div>
+		         </div>
+		         <div class="tianmao">
+		             <div class="fenlei">
+		             </div>
+		             <div class="tianmaozi">分类</div>
+		         </div>
+		      </div> 
+		    </div>
+			<!--淘宝头条开始-->
+			<div class="taobao-container">
+				<div class="toutiao"></div>
+				<div class="swiper-wrapper">
+					<!--<div class="swiper-slide">汽车 <span>6万元预算选这三款车，过年回家有面子</span></div>-->
+					<!--<div class="swiper-slide">居家 <span>旧袜子别只会扔，剪1刀省下一堆钱！</span></div>-->
+					<!--<div class="swiper-slide">围观 <span>不着急就等等，18年值得期待的3款手机</span></div>-->
+					<!--<div class="swiper-slide">园艺 <span>老婆养花，从不花钱买花盆的秘诀！</span></div>-->
+					<!--<div class="swiper-slide">疯转 <span>不管再严重咳嗽，熬一锅它！一吃就好</span></div>-->
+				<script src="js/swiper.min.js"></script>
+				<script>
+					var mySwiper = new Swiper ('.taobao-container', {
+						loop: true,
+						direction: 'vertical',
+//						autoplay:true
+					})
+				</script>
+					</div>
+				<div class="box"></div>
+				<div class="diyibufen">
+					<div class="diyizhang">
+						<div class="right"></div>
+					</div>
+                <div class="left">
+					<div class="top"></div>
+					<div class="bottom">
+                    <div class="bottom-left">
+						<div class="num"></div>
+					</div>
+                    <div class="bottom-right"></div>
+					</div>
+				</div>
+				</div>
+			</div>
+			<!--淘宝头条结束-->
+		</div>
+	<!--目录结束-->
+	</body>
+</html>
