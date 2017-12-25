@@ -337,11 +337,337 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
 /*第二部分开始*/
 .dierbufen{
     width: 10rem;
-    height: 6.734rem;
+}
+.box{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 10rem;
+    height: 0.844rem;
+    background-color: rgb(255, 255, 255);
+}
+.box i{
+    margin-top: 0.2rem;
+    margin-left: 3.5rem;
+    width: 0.422rem;
+    height: 0.422rem;
+}
+.box span{
+    box-sizing: border-box;
+    line-height: 0.844rem;
+    font-size: 42px;
+    color: rgb(255, 53, 14);
+    background-color: transparent;
+    width: 1.313rem;
+    height: 0.844rem;
+    margin-left: 0.1rem;
+}
+[data-dpr="2"] .box span{
+    font-size: 54px;
+}
+[data-dpr="3"] .box span {
+    font-size: 66px;
 }
 .chaoshihui{
     text-align: center;
     width: 10rem;
-    height: 0.844rem;
+    height: 6rem;
+}
+.topbianbufen{
+    width: 10rem;
+    height: 2.906rem;
+    border:2px solid #e8e8e8;
+}
+.img1{
+    width: 3.828rem;
+    height: 2.916rem;
+    z-index: 1;
+    float: left;
+    background: url("../img/dier03.jpg");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.img2{
+     width: 2.026rem;
+     height: 2.916rem;
+     float: left;
+     background: url("../img/dier05.png");
+     background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+ }
+.img3{
+    width: 2.026rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/dier06.png");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.img4{
+    width: 2.026rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/dier07.jpg");
+    background-size: 100% 100%;
+}
+.img5{
+    width: 3.828rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/dier04.png");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.img6{
+    width: 2.026rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/dier08.jpg ");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.img7{
+    width: 2.026rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/dier01.jpg ");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.img8{
+    width: 2.026rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/dier02.png");
+    background-size: 100% 100%;
 }
 /*第二部分结束*/
+.to{
+    width: 10rem;
+    height: 0.16rem;
+    background: #eeeeee;
+    margin-top: 0.1rem;
+}
+/*第三部分开始*/
+.disanbufen{
+    width: 10rem;
+}
+.des{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 10rem;
+    height: 0.844rem;
+    background-color: rgb(255, 255, 255);
+}
+.des i{
+    margin-top: 0.2rem;
+    margin-left: 3.5rem;
+    width: 0.422rem;
+    height: 0.422rem;
+}
+.des span{
+    box-sizing: border-box;
+    line-height: 0.844rem;
+    font-size: 42px;
+    color: rgb(255, 53, 14);
+    background-color: transparent;
+    width: 1.313rem;
+    height: 0.844rem;
+    margin-left: 0.1rem;
+
+}
+[data-dpr="2"] .des span{
+    font-size: 54px;
+}
+[data-dpr="3"] .des span {
+    font-size: 66px;
+}
+.chaoshihui{
+    text-align: center;
+    width: 10rem;
+    height: 6rem;
+}
+.topbianbufen{
+    width: 10rem;
+    height: 2.906rem;
+    border:2px solid #e8e8e8;
+}
+.png1{
+    width: 4.984rem;
+    height: 2.922rem;
+    z-index: 1;
+    float: left;
+    background: url("../img/disan01.png");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.png2{
+    width: 4.984rem;
+    height: 2.922rem;
+    z-index: 1;
+    float: left;
+    background: url("../img/disan03.png");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.png3{
+    width: 2.484rem;
+    height: 2.938rem;
+    float: left;
+    background: url("../img/disan04.png");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.png4{
+    width: 2.484rem;
+    height: 2.938rem;
+    float: left;
+    background: url("../img/disan05.jpg");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.png5{
+    width: 2.484rem;
+    height: 2.938rem;
+    float: left;
+    background: url("../img/disan06.jpg");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.png6{
+    width: 2.484rem;
+    height: 2.938rem;
+    float: left;
+    background: url("../img/disan02.jpg");
+    background-size: 100% 100%;
+}
+/*第三部分结束*/
+.si{
+    width: 10rem;
+    height: 0.16rem;
+    background: #eeeeee;
+    margin-top: 0.1rem;
+}
+/*第四部分开始*/
+.disibufen{
+    width: 10rem;
+}
+.fs{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 10rem;
+    height: 0.844rem;
+    background-color: rgb(255, 255, 255);
+}
+.fs i{
+    margin-top: 0.5rem;
+    margin-left: 3.5rem;
+    width: 0.422rem;
+    height: 0.422rem;
+}
+.fs span{
+    box-sizing: border-box;
+    line-height: 0.844rem;
+    font-size: 42px;
+    color: rgb(255, 53, 14);
+    background-color: transparent;
+    width: 1.313rem;
+    height: 0.844rem;
+    margin-left: 0.1rem;
+}
+[data-dpr="2"] .fs span{
+    font-size: 54px;
+}
+[data-dpr="3"] .fs span {
+    font-size: 66px;
+}
+.chaoshihui{
+    text-align: center;
+    width: 10rem;
+    height: 6rem;
+}
+.topbianbufen{
+    width: 10rem;
+    height: 2.906rem;
+    border:2px solid #e8e8e8;
+}
+.im1{
+    width: 3.828rem;
+    height: 2.916rem;
+    z-index: 1;
+    float: left;
+    background: url("../img/disi01.png");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.im2{
+    width: 2.026rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/disi02.jpg");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.im3{
+    width: 2.026rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/disi03.png");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.im4{
+    width: 2.026rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/disi04.png");
+    background-size: 100% 100%;
+}
+.im5{
+    width: 3.828rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/disi05.png");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.im6{
+    width: 2.026rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/disi06.png");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.im7{
+    width: 2.026rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/disi07.png");
+    background-size: 100% 100%;
+    border-right:2px solid #e8e8e8;
+}
+.im8{
+    width: 2.026rem;
+    height: 2.916rem;
+    float: left;
+    background: url("../img/disi08.jpg");
+    background-size: 100% 100%;
+}
+/*第四部分结束*/
+.datu{
+    line-height: 0;
+    width: 10rem;
+    height: 2rem;
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url("../img/datu.png");
+    background-size: 100% 100%;
+}
+.pes{
+    width: 10rem;
+    height: 0.16rem;
+    background: #eeeeee;
+}
+/*第五部分开始*/
+/*第五部分结束*/
