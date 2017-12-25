@@ -9,6 +9,7 @@ body{
 header div.tru{
 	height: 1rem;
 	width: 10rem;
+    margin:0 auto;
 	background: #FE5500 url(../img/logo.png) no-repeat 0.12rem;
 	background-size: 0.72rem 0.546rem;
 	position: relative;
@@ -49,6 +50,7 @@ div.flash{
 	width: 10rem;
 	height: 3.12rem;
 	background: blue;
+    margin:0 auto;
 }
 div.flash .swiper-container img{
 	width: 10rem;
@@ -60,6 +62,7 @@ div.mulu{
     width: 10rem;
     height: 6.146em;
     background: #fff;
+    margin:0 auto;
 }
 div.mulu .mulu-top{
     height: 4.72rem;
@@ -214,7 +217,7 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
 .taobao-container .swiper-wrapper{
     width: 6.84rem;
     height: 0.6rem;
-    /*overflow: hidden;*/
+    overflow: hidden;
     float: right;
     position: relative;
 }
@@ -263,9 +266,10 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
     border-bottom:2px solid #d9d9d9;
 }
 .diyizhang{
-    width: 3.786rem;
+    width: 3.78rem;
     height: 5.04rem;
     float: left;
+    position: relative;
     border-right:2px solid #d9d9d9;
 
 }
@@ -274,28 +278,100 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
     background: url("../img/diyiz01.jpg");
     background-size: 100% 100%;
 }
+.shijian{
+    padding: 0;
+    position: absolute;
+    top: 1.5rem;
+    left:0.5rem;
+    /*background: black;*/
+    /*color: #fff;*/
+    z-index: 3;
+}
 .left{
     width: 6.213rem;
     height: 5.04rem;
     float: right;
+    position: relative;
 }
 .top{
     width: 6.213rem;
-    height: 2.32rem;
+    height: 2.4rem;
     border-bottom: 2px solid #d9d9d9;
+    position: absolute;
+    top: -5.5rem;
 }
 .bottom{
     width: 6.213rem;
     height: 2.72rem;
-
+    position: absolute;
+    top: -2.9rem;
+    float: left;
 }
 .bottom-left{
-    width: 3.04rem;
+    width: 3rem;
     height: 2.72rem;
     border-right:2px solid #d9d9d9;
 }
-.bottom-left .num{
-    height: 2.72rem;
+.bottom-left{
+    height: 2.7rem;
     background: url("../img/diyi02.jpg");
     background-size: 100% 100%;
+}
+.bottom-right{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 3.04rem;
+    height: 2.72rem;
+    z-index: 1;
+    float: left;
+    position: absolute;
+    top: 0.1rem;
+    left: 3.1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/diyi03.png);
+}
+.chaoshihui{
+    width: 10rem;
+    height: 0.844rem;
+
+}
+.chaoshihui .hui{
+    text-align: center;
+    line-height: 0.844rem;
+    font-size: 28px;
+    color: rgb(255, 53, 14);
+    background-color: transparent;
+    height: 0.844rem;
+}
+.fuck{
+    position: relative;
+}
+.dierbu-top{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 10rem;
+    height: 2.916rem;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5.5rem;
+}
+.dierbu-top .top-diyizhang{
+    line-height: 0;
+    background-color: transparent;
+    height: 2.916rem;
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/dier03.jpg);
+}
+.dierbu-top .top-dierzhang{
+    line-height: 0;
+    background-color: transparent;
+    height: 2.916rem;
+    z-index: 1;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/dier05.png);
+     
 }
