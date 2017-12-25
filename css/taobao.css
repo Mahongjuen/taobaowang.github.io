@@ -1,9 +1,12 @@
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-    background: #eeeeee;
+.clearfix:after{
+    clear: both;
+    display: block;
+    content: '';
 }
 /*头部开始*/
 header div.tru{
@@ -202,44 +205,143 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
 /*目录结束*/
 .taobao-container{
     width: 10rem;
-    height:1em;
+    height:1rem;
     border-top: 2px solid #e8e8e8;
-    background: greenyellow;
 }
-/*.taobao-container .toutiao{*/
-    /*height: 0.8rem;*/
-    /*background: url(../img/taobaotoutiao.png) no-repeat 0.32rem 0.2rem;*/
-    /*background-size: 1.5rem 0.6rem;*/
-/*}*/
-/*.taobao-container .swiper-wrapper{*/
-    /*width: 6.84rem;*/
-    /*height: 0.6rem;*/
-    /*!*overflow: hidden;*!*/
-    /*!*float: right;*!*/
-    /*!*position: relative;*!*/
-/*}*/
-/*.taobao-container .swiper-wrapper .swiper-slide{*/
-    /*width:0.906rem;*/
-    /*height: 0.5333rem;*/
-    /*border:2px solid #d81421;*/
-    /*border-radius: 0.12rem;*/
-    /*font-size: 26px;*/
-    /*line-height: 0.533rem;*/
-    /*position: absolute;*/
-    /*top: 0.1rem;*/
-    /*left: 0;*/
+.taobao-container .toutiao{
+    height: 1rem;
+    background: url(../img/taobaotoutiao.png) no-repeat 0.32rem 0.2rem;
+    background-size: 1.5rem 0.6rem;
+}
+.taobao-container .num{
+    width: 7rem;
+    height:0.5rem;
+    overflow: hidden;
+    float: right;
+    position: relative;
+    top: -0.8rem;
+}
+.taobao-container .num span{
+    width: 0.9rem;
+    height: 0.5333rem;
+    border:2px solid #d81421;
+    border-radius: 0.12rem;
+    text-align: center;
+    line-height: 0.5333rem;
+    font-size: 13px;
+}
+[data-dpr="2"] .taobao-container .num span{
+    font-size: 26px;
+}
+[data-dpr="3"] .taobao-container .num span {
+    font-size: 39px;
+}
+.taobao-container .num .swiper-slide{
+    width: 6.53rem;
+    font-size: 13px;
+    margin-left: 0.1rem;
 
-/*}                                                                                                                 r-wrapper .swiper-slide{*/
-/*.taobao-container .swiper-wrapper .swiper-slide span{*/
-    /*width: 6.2rem;*/
-    /*font-size: 13px;*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0.6rem;*/
-/*}*/
-/*[data-dpr="2"] .taobao-container .swiper-wrapper .swiper-slide span{*/
-    /*font-size: 26px;*/
-/*}*/
-/*[data-dpr="3"] .taobao-container .swiper-wrapper .swiper-slide span{*/
-    /*font-size: 39px;*/
-/*}*/
+}
+[data-dpr="2"] .taobao-container .num .swiper-slide{
+    font-size: 26px;
+}
+[data-dpr="3"] .taobao-container .num .swiper-slide {
+    font-size: 39px;
+}
+.kobai{
+    width: 10rem;
+    height: 0.16rem;
+    background: #eeeeee;
+    margin-top: -0.1rem;
+}
+/*第一部分开始*/
+.diyibufen{
+    width: 10rem;
+    height: 5.04rem;
+    border-bottom:2px solid #d9d9d9;
+}
+.diyibufen .diyizhang{
+    width: 3.06rem;
+    height: 5.04rem;
+    float: left;
+    border-right:2px solid #e8e8e8;
+    margin-top: -0.4rem;
+}
+.diyibufen .tupian{
+    height: 5.04rem;
+    background: url("../img/diyiz01.jpg");
+    background-size: 100% 100%;
+}
+.diyibufen-right{
+    width: 6.186rem;
+    height: 5.04rem;
+    float: left;
+}
+.right-top{
+    width: 6.186rem;
+    height: 2.32rem;
+}
+.for{
+    width: 2.613rem;
+    margin-left: 0.2666rem;
+    line-height: 0.5rem;
+    font-size: 13px;
+}
+[data-dpr="2"] .for{
+    font-size: 26px;
+}
+[data-dpr="3"] .for {
+    font-size: 39px;
+}
+.for h1{
+    color: #49bdf0;
+}
+.for p{
+    color: #868686;
+}
+.for span{
+    color: #a5d5f6;
+}
+.right-bottom{
+    width: 6.186rem;
+    height: 2.72rem;
+    position: relative;
+}
+.bottom-left{
+    width: 3.04rem;
+    height: 2.72rem;
+    float: right;
+    border-right:2px solid #e8e8e8;
+    background: url("../img/diyi02.jpg ");
+    background-size: 100% 100%;
+    position: absolute;
+    top: -0.4rem;
+    left: 0.1rem;
+}
+.bottom-right{
+    width: 3.24rem;
+    height: 2.72rem;
+    background: url("../img/diyi03.png ");
+    background-size: 100% 100%;
+    position: absolute;
+    top: -0.4rem;
+    left:3.5rem;
+}
+/*第一部分结束*/
+.go{
+    width: 10rem;
+    height: 0.16rem;
+    background: #eeeeee;
+    margin-top: 0.1rem;
+}
+/*第二部分开始*/
+.dierbufen{
+    width: 10rem;
+    height: 6.734rem;
+}
+.chaoshihui{
+    text-align: center;
+    width: 10rem;
+    height: 0.844rem;
+}
+/*第二部分结束*/
