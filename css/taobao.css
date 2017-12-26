@@ -219,7 +219,7 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
     background-size: 1.5rem 0.6rem;
 }
 .taobao-container .num{
-    width: 7rem;
+    width: 7.5rem;
     height:0.5rem;
     overflow: hidden;
     float: right;
@@ -286,8 +286,20 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
     width: 6.186rem;
     height: 2.32rem;
 }
+.yifu{
+    box-sizing: border-box;
+    line-height: 0;
+    width: 3.234rem;
+    height: 2.313rem;
+    background-repeat: no-repeat;
+    background: url("../img/yifu.png");
+    background-size: 100% 100%;
+    margin-top: -1.8rem;
+    margin-left: 3.5rem;
+
+}
 .for{
-    width: 2.613rem;
+    width: 2.8rem;
     margin-left: 0.2666rem;
     line-height: 0.5rem;
     font-size: 13px;
@@ -337,7 +349,6 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
     width: 10rem;
     height: 0.16rem;
     background: #eeeeee;
-    margin-top: 0.1rem;
 }
 /*第二部分开始*/
 .dierbufen{
@@ -476,7 +487,7 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
     font-size: 24px;
     color: rgb(255, 53, 14);
     background-color: transparent;
-    width: 2.5rem;
+    width: 3rem;
     height: 0.8rem;
     position: absolute;
     margin-left:0.1rem;
@@ -577,7 +588,7 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
     font-size: 24px;
     color: rgb(255, 53, 14);
     background-color: transparent;
-    width: 2.5rem;
+    width:3rem;
     height: 0.8rem;
     position: absolute;
     margin-left:0.1rem;
@@ -704,7 +715,7 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
     box-sizing: border-box;
     line-height: 0.406rem;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 13px;
     color: rgb(51, 51, 51);
     background-color: transparent;
     position: absolute;
@@ -712,16 +723,28 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
     margin-left: 0.156rem;
     height: 0.406rem;
 }
+[data-dpr="2"] .cainixihuan-top span{
+    font-size: 26px;
+}
+[data-dpr="3"] .cainixihuan-top span{
+    font-size: 39px;
+}
 .cainixihuan-bottom{
     box-sizing: border-box;
     line-height: 0.516rem;
     text-align: center;
-    font-size: 24px;
+    font-size: 13px;
     color: rgb(120, 120, 120);
     background-color: transparent;
     margin-bottom: 0.078rem;
     width: 10rem;
     height: 0.516rem;
+}
+[data-dpr="2"] .cainixihuan-bottom{
+    font-size: 26px;
+}
+[data-dpr="3"] .cainixihuan-bottom{
+    font-size: 39px;
 }
 .nixihuandebufen{
     width: 10rem;
@@ -768,7 +791,7 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
 .baobeitupian .p{
     box-sizing: border-box;
     line-height: 0.5rem;
-    font-size: 24px;
+    font-size: 13px;
     color: rgb(102, 102, 102);
     background-color: transparent;
     margin:0  0.313rem;
@@ -777,6 +800,12 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
     overflow: hidden;
     position: absolute;
     left: 0;
+}
+[data-dpr="2"] .baobeitupian .p{
+    font-size: 26px;
+}
+[data-dpr="3"] .baobeitupian .p{
+    font-size: 39px;
 }
 .baobeitupian .span{
     box-sizing: border-box;
@@ -832,7 +861,7 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
 .baobeitupian2 .p{
     box-sizing: border-box;
     line-height: 0.5rem;
-    font-size: 24px;
+    font-size: 13px;
     color: rgb(102, 102, 102);
     background-color: transparent;
     margin:0  0.313rem;
@@ -841,6 +870,12 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
     overflow: hidden;
     position: absolute;
     right: 0;
+}
+[data-dpr="2"] .baobeitupian2 .p{
+    font-size: 26px;
+}
+[data-dpr="3"] .baobeitupian2 .p{
+    font-size: 39px;
 }
 .baobeitupian2 .span{
     box-sizing: border-box;
@@ -905,14 +940,14 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
 }
 .footer1{
     width: 10rem;
-    height:1rem;
+    height:1.3rem;
 }
 footer{
     border-top: 1px solid #E7E7E7;
     border-bottom: 1px solid #F8F8F8;
     padding-top: 4px;
     width: 10rem;
-    height:1rem;
+    height:1.3rem;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -940,6 +975,57 @@ footer a{
     text-align: center;
     box-sizing: border-box;
     display: block;
-    font-size: 10px;
+    font-size:13px;
+}
+[data-dpr="2"] footer a{
+    font-size: 26px;
+}
+[data-dpr="3"] footer a{
+    font-size: 39px;
+}
+footer a span .iconfont.icon-shouye{
+    font-size: 44px;
+}
+[data-dpr="2"] footer a span .iconfont.icon-shouye {
+    font-size: 48px;
+}
+[data-dpr="3"] footer a span .iconfont.icon-shouye {
+    font-size: 52px;
+}
+footer a span .iconfont.icon-wuliu{
+    font-size: 44px;
+}
+[data-dpr="2"] footer a span .iconfont.icon-wuliu {
+    font-size: 48px;
+}
+[data-dpr="3"] footer a span .iconfont.icon-wuliu {
+    font-size: 52px;
+}
+footer a span .iconfont.icon-gouwuche{
+    font-size: 44px;
+}
+[data-dpr="2"] footer a span .iconfont.icon-gouwuche{
+    font-size: 48px;
+}
+[data-dpr="3"] footer a span .iconfont.icon-gouwuche{
+    font-size: 52px;
+}
+footer a span .iconfont.icon-zhanghao{
+    font-size: 44px;
+}
+[data-dpr="2"] footer a span .iconfont.icon-zhanghao{
+    font-size: 48px;
+}
+[data-dpr="3"] footer a span .iconfont.icon-zhanghao{
+    font-size: 52px;
+}
+footer a span .iconfont.icon-gengduo{
+    font-size: 44px;
+}
+[data-dpr="2"] footer a span .iconfont.icon-gengduo{
+    font-size: 48px;
+}
+[data-dpr="3"] footer a span .iconfont.icon-gengduo{
+    font-size: 52px;
 }
 /*footer结束*/
