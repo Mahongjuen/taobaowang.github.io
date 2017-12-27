@@ -220,7 +220,7 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
 }
 .taobao-container .num{
     width: 7.5rem;
-    height:0.5rem;
+    height:0.6rem;
     overflow: hidden;
     float: right;
     position: relative;
@@ -273,7 +273,7 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
     margin-top: -0.5rem;
 }
 .diyibufen .tupian{
-    height: 5.04rem;
+    height: 4.04rem;
     background: url("../img/diyiz01.jpg");
     background-size: 100% 100%;
 }
@@ -302,13 +302,13 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
     width: 2.8rem;
     margin-left: 0.2666rem;
     line-height: 0.5rem;
-    font-size: 13px;
+    font-size: 10px;
 }
 [data-dpr="2"] .for{
-    font-size: 26px;
+    font-size: 20px;
 }
 [data-dpr="3"] .for {
-    font-size: 39px;
+    font-size: 30px;
 }
 .for h1{
     color: #49bdf0;
@@ -607,6 +607,7 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
 .topbianbufen{
     width: 10rem;
     height: 2.906rem;
+    margin: 0.1rem;
     border-top:2px solid #e8e8e8;
     border-bottom:2px solid #e8e8e8;
 }
