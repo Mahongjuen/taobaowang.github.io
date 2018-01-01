@@ -607,7 +607,7 @@ div.mulu .mulu-top .top-bian .tianmao .tianmaozi{
 .topbianbufen{
     width: 10rem;
     height: 2.906rem;
-    margin: 0.1rem;
+    /*margin: 0.1rem;*/
     border-top:2px solid #e8e8e8;
     border-bottom:2px solid #e8e8e8;
 }
